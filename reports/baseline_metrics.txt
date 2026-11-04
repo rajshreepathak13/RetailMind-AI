@@ -1,0 +1,5 @@
+RetailMind AI - Baseline Model Metrics
+Accuracy: 0.8055
+Precision: 0.6572
+Recall: 0.5588
+ROC-AUC: 0.8419
