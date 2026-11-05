@@ -68,3 +68,42 @@ to predict whether a customer is likely to churn.
 - Experiment with advanced ML algorithms.
 - Build an API for predictions.
 - Integrate the model into the RetailMind AI platform.
+
+## Day 2 - Model Comparison
+
+### Objective
+Improve the baseline churn prediction model by comparing
+Decision Tree, Random Forest and Support Vector Machine.
+
+### Algorithms Used
+- Decision Tree Classifier
+- Random Forest Classifier
+- Support Vector Machine (SVM)
+
+### Methodology
+1. Reused Day 1 preprocessing.
+2. Applied the same train-test split.
+3. Trained three classification models.
+4. Evaluated accuracy, precision, recall and ROC-AUC.
+5. Selected the champion model based on recall.
+6. Saved the champion model using Joblib.
+
+### Model Comparison
+
+See reports/day2_comparison.csv for actual results.
+
+| Model | Accuracy | Precision | Recall | ROC-AUC |
+|---|---|---|---|---|
+| Decision Tree | Update | Update | Update | Update |
+| Random Forest | Update | Update | Update | Update |
+| SVM | Update | Update | Update | Update |
+
+### Champion Model
+
+The model with the highest churn-class recall is selected.
+ROC-AUC is used as the tie-breaker.
+
+### Saved Models
+- models/churn_pipeline.pkl - Day 1 baseline
+- models/day2_champion.pkl - Day 2 champion
+
