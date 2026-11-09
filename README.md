@@ -128,3 +128,43 @@ Training and validation recall were compared
 using cross-validation. A learning curve was
 generated to study model generalization.
 
+## Day 4 - Feature Engineering and Ensemble Learning
+
+### Feature Engineering
+Created additional features:
+- Tenure groups
+- Average monthly spending
+- Monthly-to-total charge ratio
+- Contract flags
+- Service count
+- Internet and phone subscription flags
+- Paperless billing flag
+
+### Feature Selection
+- Technique: SelectKBest
+- Scoring function: ANOVA F-test
+- Selected features: 40
+
+### Ensemble Models
+1. Random Forest (Bagging)
+2. XGBoost (Boosting)
+
+### Model Evaluation
+- Cross-validation: 5-fold
+- Primary metric: Recall
+- Other metrics: Accuracy, Precision, ROC-AUC
+
+### Day 4 Model Comparison
+
+| Model | CV Recall | Accuracy | Precision | Recall | ROC-AUC |
+|---|---|---|---|---|---|
+| Day 3 Champion | Actual | Actual | Actual | Actual | Actual |
+| Random Forest | Actual | Actual | Actual | Actual | Actual |
+| XGBoost | Actual | Actual | Actual | Actual | Actual |
+
+### Production Model
+- Final model: [Enter selected model]
+- Saved file: models/churn_v4.joblib
+- Preprocessing and feature engineering are included in the saved pipeline.
+
+

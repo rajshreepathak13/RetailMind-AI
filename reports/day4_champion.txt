@@ -1,0 +1,4 @@
+Champion Model: Day 3 Champion
+Cross-validation Recall: 0.8355
+Test Recall: 0.8209
+Test ROC-AUC: 0.8093
