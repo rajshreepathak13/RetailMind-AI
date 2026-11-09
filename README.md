@@ -106,4 +106,25 @@ ROC-AUC is used as the tie-breaker.
 ### Saved Models
 - models/churn_pipeline.pkl - Day 1 baseline
 - models/day2_champion.pkl - Day 2 champion
+## Day 3 - Hyperparameter Tuning
+
+- Technique: GridSearchCV
+- Cross-validation: 5-fold
+- Scoring metric: Recall
+- Models: Logistic Regression, Decision Tree,
+  Random Forest, SVM
+
+### Best Model
+
+- Model: [Your champion model]
+- Best CV Recall: [Actual score]
+- Test Recall: [Actual score]
+- Test ROC-AUC: [Actual score]
+- Best Hyperparameters: [Actual parameters]
+
+### Bias-Variance Analysis
+
+Training and validation recall were compared
+using cross-validation. A learning curve was
+generated to study model generalization.
 

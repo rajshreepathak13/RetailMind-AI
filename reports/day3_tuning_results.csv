@@ -1,0 +1,5 @@
+Model,Best CV Recall,Train Recall,Test Accuracy,Test Precision,Test Recall,Test ROC-AUC,Best Parameters
+SVM,0.8354515050167224,0.8354515050167224,0.6941092973740242,0.45752608047690013,0.820855614973262,0.809315663024103,"{'classifier__C': 0.1, 'classifier__class_weight': 'balanced', 'classifier__kernel': 'linear'}"
+Logistic Regression,0.8046822742474916,0.8051839464882944,0.7381121362668559,0.504302925989673,0.7834224598930482,0.8412978893797307,"{'classifier__C': 1, 'classifier__class_weight': 'balanced'}"
+Random Forest,0.7986622073578595,0.8202341137123745,0.7395315826827538,0.5060658578856152,0.7807486631016043,0.8399377405771268,"{'classifier__class_weight': 'balanced', 'classifier__max_depth': 5, 'classifier__min_samples_split': 10, 'classifier__n_estimators': 200}"
+Decision Tree,0.7819397993311037,0.7841137123745818,0.7459190915542938,0.5140350877192983,0.7834224598930482,0.8144126688883723,"{'classifier__class_weight': 'balanced', 'classifier__max_depth': 3, 'classifier__min_samples_split': 2}"
