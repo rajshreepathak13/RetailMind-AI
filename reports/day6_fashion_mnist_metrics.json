@@ -1,0 +1,8 @@
+{
+    "model": "CNN - Fashion-MNIST",
+    "test_loss": 0.2474,
+    "test_accuracy": 0.9084,
+    "train_images": 60000,
+    "test_images": 10000,
+    "number_of_classes": 10
+}
